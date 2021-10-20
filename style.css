@@ -1,0 +1,58 @@
+* {
+	/* 所有内边距元素设置为0 */
+	padding: 0;
+	/* 所有外边距元素设置为0 */
+	margin: 0;
+	/* 改变盒子宽度计算方式 */
+	box-sizing: border-box;
+}
+
+a {
+	/* 去除下划线 */
+	text-decoration: none;
+	/* 将a元素设置为行内块元素,使其可以设置字体颜色 */
+	display: inline-block;
+	/* 字体颜色:黑色 */
+	color: black;
+}
+
+a:hover {
+	/* 鼠标悬停时a元素下划线出现 */
+	text-decoration: underline;
+}
+
+/* index */
+div {
+	/* 宽度450像素 */
+	width: 450px;
+	/* 居中 */
+	margin: 0 auto;
+}
+
+.bg {
+	/* 背景图片路径 */
+	background: url(../imegs/bg.jpg) no-repeat;
+	/* 背景图片大小 */
+	background-size: 100% 100%;
+	/* 内边距上下10像素 */
+	padding: 10px 0;
+}
+
+.main {
+	/* 内边距左右21像素 */
+	padding: 0 21px;
+}
+
+div img {
+	/* img宽度为250像素 */
+	width: 250px;
+	/* 外边距上下10像素 */
+	margin: 10px 0;
+}
+
+p {
+	/* 外边距上下10像素 */
+	margin: 10px 0;
+	/* 字体大小15像素 */
+	font-size: 15px;
+}
